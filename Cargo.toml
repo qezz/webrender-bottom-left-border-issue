@@ -1,0 +1,17 @@
+[package]
+name = "wbrex"
+version = "0.1.0"
+authors = ["Sergey Mishin <sergei.a.mishin@gmail.com>"]
+
+[dependencies]
+webrender = { rev = "34a498f7e46c385a189299e7369e204e1cb2060c", git = "https://github.com/servo/webrender" }
+euclid = "0.17.3"
+rand = "0.5"
+ordered-float = "0.5.0"
+lazy_static = "1.0"
+env_logger = "0.5"
+app_units = "0.6"
+mozangle = "0.1"
+glutin = "0.15"
+winit = "0.13"
+gleam = "0.5"
